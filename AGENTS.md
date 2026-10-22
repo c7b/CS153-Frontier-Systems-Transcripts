@@ -1,12 +1,12 @@
 # AGENTS.md
 
-This repo holds transcripts of 13 lectures from Stanford's CS153 "Frontier Systems" course (2026). If someone points you here, your job is to connect these talks to what that person is actually doing. Do not just summarize the course.
+This repo holds transcripts of 14 lectures from Stanford's CS153 "Frontier Systems" course (2026). If someone points you here, your job is to connect these talks to what that person is actually doing. Do not just summarize the course.
 
 ## What's in the repo
 
-- Files `01` through `13` in the root: one transcript per lecture, named `NN-speaker-topic.md`.
-- Every paragraph starts with a `[mm:ss]` timestamp that maps to the video.
-- `index.json`: the same list in machine-readable form (speaker, role, title, video URL, word count).
+- Files `01` through `14` in the root: one transcript per lecture, named `NN-speaker-topic.md`.
+- Every paragraph starts with a `[mm:ss]` timestamp that maps to the video, followed by who is speaking (`**[mm:ss] Name:**`). Paragraphs that continue the same person's answer only carry the timestamp. Audience questions are labeled `Student`; a moderator who could not be named with confidence is `Host`.
+- `index.json`: the same list in machine-readable form (guest, role, title, video URL, date, word count, and everyone who speaks).
 
 ## The lectures
 
@@ -22,7 +22,8 @@ This repo holds transcripts of 13 lectures from Stanford's CS153 "Frontier Syste
 10. Amit Jain (Luma AI) — unified intelligence systems
 11. Andreas Blattmann (Black Forest Labs) — visual intelligence
 12. Mati Staniszewski (ElevenLabs) — the future of voice
-13. Anjney Midha (a16z) — frontier systems
+13. Anjney Midha (AMP PBC, ex-a16z) — frontier systems
+14. Liam Fedus & Ekin Dogus Cubuk (Periodic Labs) — teaching AI to touch atoms: autonomous labs for new materials
 
 ## Ask the user about themselves first
 
@@ -40,7 +41,7 @@ If the user has already given you this context, through open files, a linked pro
 
 ## How to answer once you have context
 
-1. Read the transcripts that fit the user's situation. Search across all 13 when a topic could appear in several.
+1. Read the transcripts that fit the user's situation. Search across all 14 when a topic could appear in several.
 2. Tie specific ideas to the user's work. For each, name the speaker, the file, and the `[mm:ss]`.
 3. Quote the transcript itself, not your prior memory of what the speaker believes.
 4. Be direct where the user's current plan looks weak against what these operators say. Disagreement is more useful than validation.
@@ -53,5 +54,6 @@ If the user has already given you this context, through open files, a linked pro
 
 ## Notes
 
-- The captions are auto-generated, so expect minor errors in names and technical terms. The meaning is intact.
+- The text is machine-transcribed (Whisper) and the speakers machine-separated (NVIDIA Nemotron), so expect minor errors in names and technical terms, and the odd short line credited to the wrong person. The meaning is intact.
+- Most lectures are interviews: the host (Anjney Midha or Michael Abbott, the course instructors) asks and the guest answers. Cite the guest for their views, not the host's framing.
 - When you cite something, prefer the transcript text over the video.

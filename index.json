@@ -7,10 +7,15 @@
     "title": "Building the Frontier Ecosystem",
     "video": "https://youtu.be/d0Pfu6B7gIM",
     "video_id": "d0Pfu6B7gIM",
-    "date": "29 jun 2026",
-    "words": 10003,
-    "duration_s": 3432,
-    "paras": 52
+    "date": "2026-06-29",
+    "words": 8986,
+    "duration_s": 3438,
+    "paras": 98,
+    "speakers": [
+      "Satya Nadella",
+      "Michael Abbott",
+      "Student"
+    ]
   },
   {
     "order": 2,
@@ -20,10 +25,14 @@
     "title": "Scale, AGI, and the Future of Everything",
     "video": "https://youtu.be/F_7M4Hc-usM",
     "video_id": "F_7M4Hc-usM",
-    "date": "",
-    "words": 8048,
-    "duration_s": 2463,
-    "paras": 92
+    "date": "2026-06-15",
+    "words": 7601,
+    "duration_s": 2470,
+    "paras": 71,
+    "speakers": [
+      "Sam Altman",
+      "Anjney Midha"
+    ]
   },
   {
     "order": 3,
@@ -33,10 +42,14 @@
     "title": "The Road Ahead: Resilience Required",
     "video": "https://youtu.be/g50FHC-PzK8",
     "video_id": "g50FHC-PzK8",
-    "date": "15 jun  2026",
-    "words": 10878,
-    "duration_s": 3912,
-    "paras": 64
+    "date": "2026-05-28",
+    "words": 10895,
+    "duration_s": 3918,
+    "paras": 81,
+    "speakers": [
+      "Joe Sullivan",
+      "Host"
+    ]
   },
   {
     "order": 4,
@@ -46,10 +59,14 @@
     "title": "The Discipline of Delivering Value per Gigawatt",
     "video": "https://youtu.be/VeTqsCpcDgg",
     "video_id": "VeTqsCpcDgg",
-    "date": "27 may 2026",
-    "words": 11241,
-    "duration_s": 3854,
-    "paras": 63
+    "date": "2026-05-27",
+    "words": 11326,
+    "duration_s": 3862,
+    "paras": 142,
+    "speakers": [
+      "Amin Vahdat",
+      "Anjney Midha"
+    ]
   },
   {
     "order": 5,
@@ -59,10 +76,15 @@
     "title": "The AI-Native Company: How One Founder Becomes a 1000x Engineer",
     "video": "https://youtu.be/Lri2LNYtERM",
     "video_id": "Lri2LNYtERM",
-    "date": "20 may 2026",
-    "words": 8427,
-    "duration_s": 2829,
-    "paras": 47
+    "date": "2026-05-20",
+    "words": 8583,
+    "duration_s": 2834,
+    "paras": 58,
+    "speakers": [
+      "Garry Tan",
+      "Diana Hu",
+      "Anjney Midha"
+    ]
   },
   {
     "order": 6,
@@ -72,10 +94,15 @@
     "title": "The Compute Behind Intelligence",
     "video": "https://youtu.be/tsQB0n0YV3k",
     "video_id": "tsQB0n0YV3k",
-    "date": "13 may 2026",
-    "words": 10997,
-    "duration_s": 4097,
-    "paras": 67
+    "date": "2026-05-13",
+    "words": 11490,
+    "duration_s": 4104,
+    "paras": 123,
+    "speakers": [
+      "Jensen Huang",
+      "Host",
+      "Student"
+    ]
   },
   {
     "order": 7,
@@ -85,10 +112,14 @@
     "title": "Energy Bottlenecks",
     "video": "https://youtu.be/wisccQYTRQc",
     "video_id": "wisccQYTRQc",
-    "date": "12 may 2026",
-    "words": 10429,
-    "duration_s": 3620,
-    "paras": 59
+    "date": "2026-05-12",
+    "words": 10704,
+    "duration_s": 3627,
+    "paras": 89,
+    "speakers": [
+      "Scott Nolan",
+      "Anjney Midha"
+    ]
   },
   {
     "order": 8,
@@ -98,10 +129,14 @@
     "title": "Venture Capital Systems & Network Effects",
     "video": "https://youtu.be/B8NvdfssGac",
     "video_id": "B8NvdfssGac",
-    "date": "",
-    "words": 10652,
-    "duration_s": 3972,
-    "paras": 66
+    "date": "2026-05-11",
+    "words": 11257,
+    "duration_s": 3977,
+    "paras": 150,
+    "speakers": [
+      "Ben Horowitz",
+      "Anjney Midha"
+    ]
   },
   {
     "order": 9,
@@ -111,10 +146,14 @@
     "title": "Product Management in the AI Era",
     "video": "https://youtu.be/BQrJ4lHAjhc",
     "video_id": "BQrJ4lHAjhc",
-    "date": "",
-    "words": 10827,
-    "duration_s": 3788,
-    "paras": 61
+    "date": "2026-05-07",
+    "words": 11172,
+    "duration_s": 3794,
+    "paras": 76,
+    "speakers": [
+      "Nikhyl Singhal",
+      "Michael Abbott"
+    ]
   },
   {
     "order": 10,
@@ -124,10 +163,14 @@
     "title": "Unified Intelligence Systems",
     "video": "https://youtu.be/6nUl_w5W9Wk",
     "video_id": "6nUl_w5W9Wk",
-    "date": "",
-    "words": 10803,
-    "duration_s": 3455,
-    "paras": 57
+    "date": "2026-05-06",
+    "words": 11110,
+    "duration_s": 3461,
+    "paras": 105,
+    "speakers": [
+      "Amit Jain",
+      "Anjney Midha"
+    ]
   },
   {
     "order": 11,
@@ -137,10 +180,14 @@
     "title": "Visual Intelligence",
     "video": "https://youtu.be/CBaLU0dDEY8",
     "video_id": "CBaLU0dDEY8",
-    "date": "",
-    "words": 9899,
-    "duration_s": 3660,
-    "paras": 58
+    "date": "2026-05-04",
+    "words": 10133,
+    "duration_s": 3674,
+    "paras": 98,
+    "speakers": [
+      "Anjney Midha",
+      "Andreas Blattmann"
+    ]
   },
   {
     "order": 12,
@@ -150,22 +197,48 @@
     "title": "The Future of Voice Systems",
     "video": "https://youtu.be/vfF011ko89o",
     "video_id": "vfF011ko89o",
-    "date": "",
-    "words": 11790,
-    "duration_s": 3974,
-    "paras": 64
+    "date": "2026-05-04",
+    "words": 11791,
+    "duration_s": 3986,
+    "paras": 101,
+    "speakers": [
+      "Mati Staniszewski",
+      "Anjney Midha"
+    ]
   },
   {
     "order": 13,
     "file": "13-anjney-midha-frontier-systems.md",
     "speaker": "Anjney Midha",
-    "role": "General Partner, Andreessen Horowitz (a16z) / AMP",
+    "role": "Founder, AMP PBC; former General Partner, Andreessen Horowitz (a16z)",
     "title": "Frontier Systems",
     "video": "https://youtu.be/O5PfU_uDhS0",
     "video_id": "O5PfU_uDhS0",
-    "date": "",
-    "words": 10745,
-    "duration_s": 3942,
-    "paras": 65
+    "date": "2026-04-30",
+    "words": 10727,
+    "duration_s": 3955,
+    "paras": 63,
+    "speakers": [
+      "Anjney Midha",
+      "Student"
+    ]
+  },
+  {
+    "order": 14,
+    "file": "14-liam-fedus-dogus-cubuk-teaching-ai-to-touch-atoms.md",
+    "speaker": "Liam Fedus & Ekin Dogus Cubuk",
+    "role": "Co-founders, Periodic Labs",
+    "title": "Teaching AI to Touch Atoms",
+    "video": "https://youtu.be/8cAQdELWYuo",
+    "video_id": "8cAQdELWYuo",
+    "date": "2026-09-29",
+    "words": 7214,
+    "duration_s": 2529,
+    "paras": 91,
+    "speakers": [
+      "Ekin Dogus Cubuk",
+      "Liam Fedus",
+      "Anjney Midha"
+    ]
   }
 ]

@@ -1,16 +1,14 @@
 # Stanford CS153 Frontier Systems: transcripts
 
-Every lecture from Stanford's CS153 course, cleaned into readable text you can search and quote. Thirteen talks, about 13 hours, 135,000 words. Speakers include Satya Nadella, Sam Altman, Jensen Huang, and Ben Horowitz, plus nine other founders and operators.
-
-I pulled the captions from YouTube, fixed the formatting, and put a timestamp on every paragraph so you can jump back to the moment in the video.
+Every lecture from Stanford's CS153 course, as readable text you can search and quote. Fourteen talks, about 14 hours, 143,000 words. Speakers include Satya Nadella, Sam Altman, Jensen Huang, and Ben Horowitz, plus ten other founders and operators.
 
 ## Give this to your AI, don't just watch it
 
-Watching 13 hours of video is slow, and most of it won't apply to you. Your AI assistant already knows what you're building. So hand it these transcripts and let it find what matters for your situation.
+Watching 14 hours of video is slow, and most of it won't apply to you. Your AI assistant already knows what you're building. So hand it these transcripts and let it find what matters for your situation.
 
 Paste this into Claude, ChatGPT, or Cursor along with the transcripts (or just the repo link):
 
-> You have the transcripts of Stanford CS153 "Frontier Systems" (Nadella, Altman, Huang, Horowitz, and 9 other founders). You know what I'm working on.
+> You have the transcripts of Stanford CS153 "Frontier Systems" (Nadella, Altman, Huang, Horowitz, and 10 other founders). You know what I'm working on.
 >
 > 1. The 5 ideas most relevant to my work right now. Give the speaker and timestamp for each.
 > 2. Where my current strategy looks weak next to what these people actually say.
@@ -18,7 +16,7 @@ Paste this into Claude, ChatGPT, or Cursor along with the transcripts (or just t
 >
 > Cite the transcript and timestamp for every point.
 
-When it flags something, open that transcript and search for the line. Text is easier to search and quote than a video, and a model can read all 135k words in seconds. That's where you'll see where your own thinking falls short, so go back to the transcript, not the clip.
+When it flags something, open that transcript and search for the line. Text is easier to search and quote than a video, and a model can read all of it in seconds. That's where you'll see where your own thinking falls short, so go back to the transcript, not the clip.
 
 The repo ships with an `AGENTS.md` (the standard file agents read). Tools like Claude Code, Cursor, and Codex pick it up on their own, so the agent will know what these files are and will ask you about your work before it answers.
 
@@ -38,13 +36,21 @@ The repo ships with an `AGENTS.md` (the standard file agents read). Tools like C
 | 10 | Amit Jain | CEO, Luma AI | Unified Intelligence Systems | [transcript](10-amit-jain-unified-intelligence-systems.md) · [video](https://youtu.be/6nUl_w5W9Wk) |
 | 11 | Andreas Blattmann | Co-founder, Black Forest Labs | Visual Intelligence | [transcript](11-andreas-blattmann-visual-intelligence.md) · [video](https://youtu.be/CBaLU0dDEY8) |
 | 12 | Mati Staniszewski | CEO, ElevenLabs | The Future of Voice Systems | [transcript](12-mati-staniszewski-the-future-of-voice-systems.md) · [video](https://youtu.be/vfF011ko89o) |
-| 13 | Anjney Midha | General Partner, a16z | Frontier Systems | [transcript](13-anjney-midha-frontier-systems.md) · [video](https://youtu.be/O5PfU_uDhS0) |
+| 13 | Anjney Midha | Founder, AMP PBC (ex-a16z) | Frontier Systems | [transcript](13-anjney-midha-frontier-systems.md) · [video](https://youtu.be/O5PfU_uDhS0) |
+| 14 | Liam Fedus & Ekin Dogus Cubuk | Co-founders, Periodic Labs | Teaching AI to Touch Atoms | [transcript](14-liam-fedus-dogus-cubuk-teaching-ai-to-touch-atoms.md) · [video](https://youtu.be/8cAQdELWYuo) |
 
 Full playlist: [Stanford Online CS153](https://www.youtube.com/playlist?list=PLoROMvodv4rN447WKQ5oz_YdYbS74M5IA).
 
-## About the transcripts
+## How these were made
 
-These come from Stanford Online's public YouTube uploads. The captions are auto-generated, and I only cleaned the formatting and added timestamps, so the wording is verbatim and has the occasional error in names and technical terms. Check the video when precision matters.
+**Update, October 21, 2026: every line now says who is speaking.**
+
+1. **Audio:** [yt-dlp](https://github.com/yt-dlp/yt-dlp) downloads each video's audio.
+2. **Text:** [Whisper large-v3](https://huggingface.co/openai/whisper-large-v3) transcribes it with timestamps.
+3. **Speakers:** NVIDIA [Nemotron-3 Diarization](https://huggingface.co/nvidia/Nemotron-3-Diarization) separates the voices.
+4. **Names:** an AI names each voice from context. Audience questions are "Student"; an unsure moderator is "Host".
+
+**What to keep in mind:** the wording is verbatim, so expect the occasional error in names and technical terms. When two people talk over each other, a short line ("Yeah", "Exactly") can land on the wrong person, and audience questions the guest repeats out loud stay inside the guest's answer. Check the video when precision matters.
 
 The content belongs to the speakers and Stanford. This is an unofficial educational copy of public material, not affiliated with Stanford. If you hold the rights to something here and want it removed, open an issue.
 
